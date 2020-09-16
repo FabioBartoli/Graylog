@@ -54,6 +54,9 @@ services:
       - 12201:12201
       # GELF UDP
       - 12201:12201/udp
+networks:
+  graylog:
+    driver: bridge
 # Volumes for persisting data
 volumes:
   mongo_data:
