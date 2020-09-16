@@ -60,8 +60,8 @@ networks:
 # Volumes for persisting data
 volumes:
   mongo_data:
-    driver: /var/lib/mongo_data:rw
+    driver: /var/lib/mongo_data
   es_data:
-    driver: /var/lib/es_data:rw
+    driver: /var/lib/es_data
   graylog_data:
-    driver: /var/lib/graylog_data:rw
+    driver: /var/lib/graylog_data
