@@ -3,7 +3,7 @@ services:
   # MongoDB: https://hub.docker.com/_/mongo/
   mongodb:
     image: mongo:3
-	networks:
+    networks:
       - graylog
     volumes:
       - mongo_data:/data/db
